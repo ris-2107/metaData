@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.imgShow {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 200px;
+    width: 220px;
+  }
+
+#spanIn{
+  
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+#allMetaDataDiv{
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.2rem;
+    color: #3f1e08;
+    background: #f2f0e8;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+  }
+
+#cover{
+    width: 375px;
+    height: 375px;
+    background-position: center;
+    background-size: cover;
+  }
